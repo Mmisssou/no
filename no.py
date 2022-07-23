@@ -575,4 +575,7 @@ expander = st.expander("Concernant le graphique de dispersion....")
 
 
 expander.write("Ces boxplots montrent la dispersion des valeurs de caractéristiques prétraitées utilisées par le modèle pour faire une prédiction. Les boxplots vertes sont pour les clients qui ont remboursé leur prêt et les boxplots rouges sont pour les clients qui ne l'ont pas remboursé. Sur les boxplots sont superposées (marqueurs) les valeurs des caractéristiques pour les 20 plus proches voisins du client demandeur dans ensemble d'entraînement. La couleur des marqueurs indique si ces voisins ont remboursé ou non leur emprunt. Les valeurs du client candidat sont superposées en jaune.")
+lottie_url_hello1 = "https://assets4.lottiefiles.com/private_files/lf30_1e3t9dhk.json"
+lottie_hello = load_lottieurl(lottie_url_hello1)
+st_lottie(lottie_hello, key="hell")
 
